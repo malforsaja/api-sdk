@@ -4,7 +4,7 @@
 ### Install the dependencies
 > npm install
 
-### Update the .env file with correct configurations
+### Check the config.json file to make the right configurations
 
-### Start the message service app by runnig the comman
+### Start testing the library by runnig the command
 > npm start
