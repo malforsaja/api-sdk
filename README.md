@@ -4,7 +4,7 @@
 ### Install the dependencies
 > npm install
 
-### Check the out folder for the documentation
+### Check the "out" folder for the documentation
 
 ### Check the config.json file to make the right configurations
 

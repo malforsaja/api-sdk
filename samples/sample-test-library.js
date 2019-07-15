@@ -4,6 +4,8 @@ const configs = require('../config/config.json');
 
 const payment = new Payment(configs);
 
+// you have to retrieve a token using the function userLogin() by providing username and password, 
+// then use this token for granting access to other requests.
 
 let token;
 payment.userLogin({
