@@ -1,0 +1,30 @@
+{
+  "name": "api-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node samples/login.js",
+    "build": "babel ./source --presets babel-preset-es2015 --out-dir distribution",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sdk",
+    "library",
+    "api"
+  ],
+  "author": "Malfor Saja",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "is-url": "^1.2.4",
+    "proper-url-join": "^2.0.1",
+    "query-string": "^6.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/node": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "jsdoc": "^3.6.3"
+  }
+}
